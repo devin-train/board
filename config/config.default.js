@@ -46,6 +46,11 @@ module.exports = appInfo => {
     },
   };
 
+  exports.validate = {
+    convert: true,
+    widelyUndefined: true
+  }
+
   // add your user config here
   const userConfig = {
     // myAppName: 'egg',
